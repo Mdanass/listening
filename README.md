@@ -7,4 +7,4 @@ Fill in the blanks
 Choose the best answer
 based on the marks - user will get a specific band score so my code will gauge and direct user to focus on a specific part.
 
-Our task on this source code is working name conventions and shrink as low as possible - so, as a team, help me in this project please.
+Our task on this source code is working name conventions, making a new feature like text to speech convertion and shrink as low as possible - so, as a team, help me in this project please.

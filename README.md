@@ -1,5 +1,5 @@
 # listening
-in nur shell - this source code gets scores from user
+in nut shell - this source code gets scores from user
 based on score it distinguishes on which part user should focus on to get good mark
 In IELTS Listening - there are 40 questions in 4 parts
 2 types of questions 

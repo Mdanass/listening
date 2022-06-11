@@ -4,18 +4,19 @@ while True:
     part2 = int(input('correct scores in part2 out of 10?\n'))
     part3 = int(input('correct scores in part3 out of 10?\n'))
     part4 = int(input('correct scores in part4 out of 10?\n'))
+    total = part1 + part2 + part3 + part4
+    incorrect = 40 - total
+    percentage1 = part1 / 10 *100
+    percentage2 = part2 / 10 *100
+    percentage3 = part3 / 10 *100
+    percentage4 = part4 / 10 *100
+    print(f'{round(percentage1)}%in part1\n{round(percentage2)}%in part2\n{round(percentage3)}%in part3\n{round(percentage4)}%in part4\n')
+    print(f'total incorrect answers are {incorrect},correct answers are {total}')
     break
   except ValueError as err:
     print(err)
     continue
-total = part1 + part2 + part3 + part4
-incorrect = 40 - total
-percentage1 = part1 / 10 *100
-percentage2 = part2 / 10 *100
-percentage3 = part3 / 10 *100
-percentage4 = part4 / 10 *100
-print(f'{round(percentage1)}%in part1\n{round(percentage2)}%in part2\n{round(percentage3)}%in part3\n{round(percentage4)}%in part4\n')
-print(f'total incorrect answers are {incorrect},correct answers are {total}')
+
 #----------------------part1
 while True:
   try:
